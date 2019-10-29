@@ -32,7 +32,7 @@ def phone():
             if key == number[0:4]:
                 gstate = value[1]
                 tname = value[0]
-                return jsonify(your_number=number, state=gstate, company_name=tname)
+                return jsonify(your_number=number, state=gstate, company_name=tname), 200
 
 
 if __name__ == '__main__':

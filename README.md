@@ -34,3 +34,7 @@ def phone():
                 return jsonify(your_number=number, state=gstate, company_name=tname), 200
 
 ```
+
+### Used Modules
+1. Flask==1.1.1
+2. requests==2.22.0
